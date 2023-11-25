@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "ECommerce",
+    "slug": "e-commerce",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.tomlee.dev.ecommerce"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    // "extra": {
+    //   "eas": {
+    //     "projectId": "6a12633e-d943-4e60-8f48-6646590aa0d7"
+    //   }
+    // },
+    "owner": "tomlee.dev"
+  }
+}
